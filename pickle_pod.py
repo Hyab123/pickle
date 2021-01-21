@@ -1,9 +1,5 @@
 import pickle
 
-#!/usr/bin/python
-# -*- coding: utf-8 -*-
-import pickle
-
 # 1 Initialize an empty dictionary variable, name it all_pod_members
 
 all_pod_members = {}
@@ -24,6 +20,7 @@ gabriel_members = {}
 
 
 # 4 Create an empty dictionary for the other 3 PODs; Aris, Gabriel and Richard
+
 
 # 5 Add the names and telephone numbers of each member POD
 
@@ -73,10 +70,13 @@ pickle.dump(jacore_members, pod_file)
 pickle.dump(andrew_members, pod_file)
 pickle.dump(aris_members, pod_file)
 pickle.dump(gabriel_members, pod_file)
+pickle.dump(richard_members, pod_file)
 
 # 8 Open the pod_file to read data
 
-pod_file = open('all_pods.pkl', 'rb')
+
+print (all_pod_members)
+
 
 # 9 Print all the Pod leaders and POD membership
 
