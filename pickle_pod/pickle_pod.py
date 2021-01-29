@@ -64,7 +64,7 @@ all_pod_members['Aris'] = aris_members
 all_pod_members['Richard'] = richard_members
 all_pod_members['Gabriel'] = gabriel_members
 
-# 7 Dump all the
+# 7 Dump all the 
 
 pickle.dump(jacore_members, pod_file)
 pickle.dump(andrew_members, pod_file)
@@ -74,7 +74,7 @@ pickle.dump(richard_members, pod_file)
 
 # 8 Open the pod_file to read data
 
-
+pod_file = open('all_pods.pkl', 'rb')
 print (all_pod_members)
 
 
