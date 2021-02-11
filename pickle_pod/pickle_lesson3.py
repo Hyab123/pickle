@@ -1,3 +1,12 @@
+"""
+********************************
+* Program: pickle_lesson3.py   *
+* Hyab Isayas                  *
+* 2/10/2021                    *
+* The Hidden Genius Project    *
+* Cohort: OAK8                 *
+********************************
+"""
 instructor = {}
 
 jacore_leader = {}
